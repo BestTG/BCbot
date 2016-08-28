@@ -8,8 +8,8 @@ serpent = require('serpent')
 ltn12 = require ('ltn12')
 json = (loadfile "./libs/JSON.lua")()
 version = 'beta'
-bot_api_key = 'token' -- set token
-bot_sudo = 228347356 -- set sudo
+bot_api_key = '231614205:AAFNQbojvrGAL9YmRzfVXSoFb4Mq1k1GWt0' -- set token
+bot_sudo = 32347781 -- set sudo
 --functions
 function vardump(value)
   print(serpent.block(value, {comment=false}))
